@@ -1,0 +1,28 @@
+// tailwind css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active_menu {
+    color: red;
+    font-size: 1.5rem;
+}
